@@ -1,0 +1,43 @@
+# Data (re-downloaded by TDC) and cached datasets
+data/
+*.pkl
+*.csv.gz
+oncedone/
+
+# Model checkpoints / large binaries
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Keep result CSVs, JSON, LaTeX, and figures tracked (small, showcase output).
+# If you'd rather not track them either, uncomment:
+# results/*.csv
+# figures/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
+runs/
