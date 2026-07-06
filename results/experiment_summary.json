@@ -1,0 +1,34 @@
+{
+  "Dataset": {
+    "name": "GDSC1",
+    "source": "Therapeutics Data Commons (TDC)",
+    "n_train": 124117,
+    "n_calibration": 26596,
+    "n_test": 26597,
+    "n_drugs": 208,
+    "n_cell_lines": 958,
+    "n_genes": 17737
+  },
+  "Model": {
+    "type": "GNN (GCN) + Gene Expression MLP",
+    "drug_encoder": "Graph Convolutional Network",
+    "cell_encoder": "MLP on gene expression",
+    "n_gnn_layers": 3,
+    "hidden_dim": 128,
+    "n_parameters": 4708353,
+    "dropout": 0.2
+  },
+  "Conformal_Prediction": {
+    "method": "Split Conformal",
+    "alpha": 0.1,
+    "quantile": 1.8975387937521675
+  },
+  "Results": {
+    "rmse": 1.1843541552069126,
+    "mae": 0.8755748744500144,
+    "pearson": 0.9093553934777487,
+    "spearman": 0.8886117113480847,
+    "coverage": 0.9024702034063992,
+    "mean_interval_width": 3.795077587504336
+  }
+}
