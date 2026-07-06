@@ -1,0 +1,13 @@
+Metric,Value
+Total Samples,"177,310"
+Unique Drugs,208
+Unique Cell Lines,958
+Samples per Drug (mean),852.5
+Samples per Drug (std),305.1
+Samples per Cell Line (mean),185.1
+Samples per Cell Line (std),35.9
+IC50 Mean,2.0071
+IC50 Std,2.7147
+IC50 Min,-9.9334
+IC50 Max,12.3591
+Coverage (%),88.98
