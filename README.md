@@ -105,6 +105,7 @@ A two-sided binomial test on the 90% intervals gives p = 0.18, so the observed c
 ├── tests/
 │   └── test_smoke.py                 # shape and coverage smoke tests
 ├── figures/                          # exported plots
+├── report/
 ├── results/
 │   ├── test_metrics.csv
 │   ├── coverage_analysis.csv
